@@ -1,0 +1,9 @@
+{
+	"required": true,
+	"package": "com.maceed.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": ["PlayerMixin"],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
