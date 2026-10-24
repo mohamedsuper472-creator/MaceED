@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "maceed",
+	"version": "${version}",
+	"name": "MaceED",
+	"description": "Change the player's hitbox width and height with /hitbox.",
+	"authors": ["You"],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.maceed.MaceEDMod"],
+		"client": ["com.maceed.MaceEDClient"]
+	},
+	"mixins": ["maceed.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
